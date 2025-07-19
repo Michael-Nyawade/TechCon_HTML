@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us - TechCon 2024</title>
   <style>
-    /* Simple responsive iframe wrapper */
     .map-container {
       position: relative;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
       max-width: 100%;
@@ -24,9 +23,10 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1>Contact Us</h1>
-    <nav aria-label="Primary navigation">
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -37,9 +37,9 @@
   </header>
 
   <main>
-    <section aria-labelledby="contact-info-title">
-      <h2 id="contact-info-title">Contact Information</h2>
-      <p>Email us at: 
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email us at:
         <a href="mailto:email@example.com">email@example.com</a>
       </p>
       <p>Follow us on social media:</p>
@@ -50,30 +50,30 @@
       </ul>
     </section>
 
-    <section aria-labelledby="location-title">
-      <h2 id="location-title">Conference Venue</h2>
+    <section>
+      <h2>Conference Venue</h2>
       <div class="map-container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0190739795387!2d-122.41941518468162!3d37.77492977975977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808ca4a7bd1f%3A0x4a5a7c11b9d1be6d!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1616463781597!5m2!1sen!2sus"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Map showing location of TechCon 2024 at Moscone Center, San Francisco"
-        ></iframe>
+          title="Map showing location of TechCon 2024 at Moscone Center, San Francisco">
+        </iframe>
       </div>
     </section>
 
-    <section aria-labelledby="contact-form-title">
-      <h2 id="contact-form-title">Send Us a Message</h2>
-      <form action="#" method="post" aria-label="Contact us form">
+    <section>
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
         <div>
           <label for="contact-name">Name:</label>
-          <input type="text" id="contact-name" name="name" required />
+          <input type="text" id="contact-name" name="name" required>
         </div>
 
         <div>
           <label for="contact-email">Email:</label>
-          <input type="email" id="contact-email" name="email" required />
+          <input type="email" id="contact-email" name="email" required>
         </div>
 
         <div>
@@ -89,7 +89,8 @@
   </main>
 
   <footer>
-    <p>© TechCon 2024</p>
+    <p>Copyright © TechCon 2024</p>
   </footer>
+
 </body>
 </html>
